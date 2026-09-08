@@ -37,7 +37,7 @@ h3 { font-size: 1.25rem; margin-top: 0; }
 .card-kicker { color: var(--purple-2); font-weight: 700; }
 .card p, .service-card p, .muted p, .contact p { color: var(--muted); }
 .section { padding: 88px 0; }
-.muted { background: rgba(255,255,255,.025); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.muted { background: var(--bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 36px; }
 .contact { text-align: left; }
 .contact-intro { max-width: 650px; margin-bottom: 32px; }
